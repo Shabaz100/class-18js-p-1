@@ -1,0 +1,151 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* COMMON CSS END */
+
+/* TEXT MODE CHANGE START*/
+#textModeChange{
+    height: 100vh;
+    position: relative;
+}
+#textModeChange .btn1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #cfc3c3;
+    top: 30px;
+    right: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#textModeChange .info h1{
+    font-size: 35px;
+    padding: 20px 0 0 20px;
+}
+#textModeChange .info p{
+    font-size: 20px;
+    padding: 30px 0 0 20px;
+}
+#textModeChange .info.active h1{
+    color: rgb(240, 235, 235);
+}
+#textModeChange .info.active P{
+    color: rgb(249, 253, 246);
+}
+#textModeChange .info.active{
+    background-color: rgb(14, 14, 13);
+    height: 100vh;
+    width: 100%;
+}
+/*shabazking*/
+/* TEXT MODE CHANGE END */
+ /* accordion START  */
+.active {
+    background-color:#fff;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .onkpara, .active:hover {
+    background-color: red;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color:#ffff;
+    display: none;
+    overflow: hidden;
+  }
+  /* accordion END */
+/* COUNTER START */
+#counter{
+    background-color:red;
+    height: 100vh;
+}
+#counter .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#counter .container button, #counter .container input{
+   padding: 20px;
+   text-align: center;
+   border: none;
+   outline: none;
+}
+#counter .container button{
+    cursor: pointer;
+}
+/* COUNTER END */
+/* MOBILE NAV START */
+#dropdown{
+    position: relative;
+    background-color: blue;
+    height: 100vh;
+}
+#dropdown .btn{
+    height: 52px;
+    position: absolute;
+    width: 52px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+#dropdown .bar{
+    height: 100vh;
+    background-color:blue;
+    position: absolute;
+    width:0PX;
+    right: 0;
+    transition: 0.4s;
+}
+#dropdown .bar.active{
+   width: 200px;
+}
+#dropdown .bar a{
+    color:#fff;
+    font-size: 20px;
+    padding: 50px  0 50px 20px;
+    display: block;
+}
+#dropdown .bar i{
+    margin-right: 10px;
+}
+/* MOBILE NAV END */
+/* RANGE START */
+#range{
+    height: 100vh;
+    background-color:green;
+}
+#range .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 13, 13);
+}
+#range .container input {
+    width: 600px;
+    height: 50px;
+   background: red;
+}
+/* RANGE END */
+
